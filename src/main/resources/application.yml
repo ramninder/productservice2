@@ -1,0 +1,9 @@
+couponService2:
+  url: http://localhost:9091/couponapi/
+server:
+  port: 9090
+spring:
+  datasource:
+    password: ${password}
+    url: jdbc:mysql://${DB_HOST}/${DB_NAME}
+    username: ${username}
